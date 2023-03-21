@@ -1,0 +1,26 @@
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding: 0%;
+}
+
+ul li a {
+    height: 20rem;
+    width: 20rem;
+    border: 1px solid whitesmoke;
+    border-radius: 2rem;
+    margin: 0.5rem;
+    display: felx;
+    flex-direction: column;
+    overflow: hidden;
+    color: #e72929;
+
+}
+
+li a:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
